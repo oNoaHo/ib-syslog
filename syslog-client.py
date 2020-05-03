@@ -13,5 +13,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
         # print("\n\n 1. Server sent : ", send_data, "\n\n")
         # s.sendall(b'Hello, world')
         # data = s.recv(1024)
-
-print('Received', repr(data))
+# print('Received', repr(data))
